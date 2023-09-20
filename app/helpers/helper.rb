@@ -80,8 +80,6 @@ module DiscourseChatIntegration
         DiscourseChatIntegration::Helper.status_for_channel(channel)
       when "help"
         I18n.t("chat_integration.provider.#{provider}.help")
-      else
-        error_text
       end
     end
 
